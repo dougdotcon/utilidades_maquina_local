@@ -1,0 +1,12 @@
+# Ignorar tudo
+*
+
+# Mas não ignorar arquivos .md na raiz
+!*.md
+
+# Não ignorar o próprio .gitignore
+!.gitignore
+
+# Ignorar arquivos .md em subdiretórios (manter apenas os da raiz)
+*/*.md
+*/**/*.md
